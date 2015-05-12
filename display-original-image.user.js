@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Display Original Image
-// @version     0.1.0
+// @version     0.1.1
 // @namespace   eight04.blogspot.com
 // @description This script will replace thumbnail with full size image if available.
 // @include     http*
@@ -37,10 +37,14 @@ function displayOriginalImage(node) {
 }
 
 function replace(img, anchor) {
-	if (!/\.(jpg|png|gif)($|\?)/i.test(anchor.href)) {
-		img.src = anchor.href;
+	if (anchor.classList.contains("display-original-image")) {
+		return;
 	}
+	if (!/\.(jpg|png|gif)($|\?)/i.test(anchor.href)) {
+		return;
+	}
+	img.src = anchor.href;
+	anchor.classList.add("display-original-image");
 }
 
 observeDocument(displayOriginalImage);
-

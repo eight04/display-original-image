@@ -8,5 +8,7 @@ The script will detect all `a>img` elements. If the url of `a` looks like an ima
 
 Changelog
 ---------
+* Version 0.1.1 (May 13, 2015)
+	- Fix: duplicate bug.
 * Version 0.1.0 (May 13, 2015)
 	- First release.
