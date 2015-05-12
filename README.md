@@ -6,6 +6,10 @@ How does it work
 ----------------
 The script will detect all `a>img` elements. If the url of `a` looks like an image file (ends with `.jpg/.png/.gif`), create a new image and replace the old one.
 
+Install
+-------
+[Greasy Fork](https://greasyfork.org/scripts/9841-display-original-image)
+
 Changelog
 ---------
 * Version 0.1.1 (May 13, 2015)
