@@ -12,6 +12,8 @@ Install
 
 Changelog
 ---------
+* Version 0.1.2 (May 13, 2015)
+	- Handle error.
 * Version 0.1.1 (May 13, 2015)
 	- Fix: duplicate bug.
 * Version 0.1.0 (May 13, 2015)
