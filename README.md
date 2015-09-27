@@ -6,6 +6,8 @@ How does it work
 ----------------
 The script will detect all `a>img` elements. If the url of `a` looks like an image file (ends with `.jpg/.png/.gif`), create a new image and replace the old one.
 
+**Warning!!! This script might slow down your computer if the page contains too many (or too large) images.**
+
 Install
 -------
 [Greasy Fork](https://greasyfork.org/scripts/9841-display-original-image)
